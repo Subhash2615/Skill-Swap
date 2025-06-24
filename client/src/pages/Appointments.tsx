@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from '../utils/axios';
 import Layout from '../components/Layout';
-import { Card, CardBody, CardHeader, Button, Badge, Avatar } from '../components/ui';
+import { Card, CardBody, CardHeader, Badge, Avatar } from '../components/ui';
 
 interface Appointment {
   _id: string;
